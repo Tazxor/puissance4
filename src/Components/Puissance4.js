@@ -9,6 +9,8 @@ const Puissance4 = ({ navigation }) => {
   const [player, setPlayer] = useState('red');
   const [winner, setWinner] = useState(null);
 
+
+
   const dropPiece = (col) => {
     if (winner) return;
     const row = getNextAvailableRow(col);

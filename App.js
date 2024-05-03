@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Puissance4 from './Puissance4';
+import Puissance4 from './src/Components/Puissance4';
 
 const Stack = createStackNavigator();
 
